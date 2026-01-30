@@ -81,7 +81,7 @@ def delete_user(username: str):
             return
         db.delete(user)
         db.commit()
-        print(f'{username} deleted')
+        print(f'{username} deleted')  
     # The code for task 8 goes here. Once implemented, remove the line below that says "pass"
     
 
